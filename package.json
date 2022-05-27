@@ -1,0 +1,14 @@
+{
+  "name": "testimonials-grid-section-main",
+  "version": "1.0.0",
+  "description": "Testimonials grid section",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass main.scss css/style.css --watch"
+  },
+  "author": "@ninamicle",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
