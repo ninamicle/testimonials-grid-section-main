@@ -109,7 +109,7 @@ body {
       color: $very-dark-grayish-blue;
     }
 
-    @media screen and (min-width: 376px) {
+    @media screen and (min-width: 481px) {
       &__item-1 {
         grid-column-start: 1;
         grid-column-end: 3;

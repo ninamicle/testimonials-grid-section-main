@@ -78,7 +78,7 @@ body {
       grid-row-end: 5;
       background-color: white;
       color: #48556a; }
-    @media screen and (min-width: 376px) {
+    @media screen and (min-width: 481px) {
       .container .card__item-1 {
         grid-column-start: 1;
         grid-column-end: 3;
