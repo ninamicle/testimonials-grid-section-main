@@ -45,5 +45,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://github.com/ninamicle)
+- Website - [GitHub profile](https://github.com/ninamicle)
 - Frontend Mentor - [@ninamicle](https://www.frontendmentor.io/profile/ninamicle)
