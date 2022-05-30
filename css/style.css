@@ -1,5 +1,5 @@
 html {
-  font-size: 70.7%; }
+  font-size: 60.6%; }
 
 *,
 *::after,
@@ -13,12 +13,13 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 1.3rem;
   line-height: 1.5;
-  background-color: #ecf2f8; }
+  background-color: #ecf2f8;
+  position: relative; }
 
 .container {
   display: grid;
   gap: 3rem;
-  padding: 5rem; }
+  padding: 4rem; }
   .container .card {
     border-radius: 1rem;
     padding: 2rem;
@@ -30,7 +31,8 @@ body {
       gap: 1rem;
       align-items: center; }
     .container .card__header-author--role, .container .card__content {
-      opacity: 0.6; }
+      opacity: 0.6;
+      font-size: 1.3rem; }
     .container .card__header-author--name {
       font-weight: 700; }
     .container .card__title {
@@ -85,7 +87,7 @@ body {
         grid-row-start: 1;
         grid-row-end: 2;
         background-position-x: 27rem;
-        background-position-y: 3rem; }
+        background-size: 13.3rem; }
       .container .card__item-2 {
         grid-column-start: 3;
         grid-column-end: 4;
@@ -112,3 +114,8 @@ body {
   .container .card:nth-child(4) .card__header-img img {
     border-radius: 50%;
     border: 0.3rem solid #7541c8; }
+
+.attribution {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
